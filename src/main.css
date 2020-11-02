@@ -1,0 +1,8 @@
+* {
+    text-align: center;
+}
+
+.searchForm {
+    display: flex;
+    justify-content: center; 
+}
