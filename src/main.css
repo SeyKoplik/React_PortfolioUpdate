@@ -1,24 +1,30 @@
 body {
-    background-image: url('./images/BGpic1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    overflow: overlay;
+  background-image: url('./images/BGpic1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: overlay;
   }
 
-ul {
-    background-color: #faa;
-    height: 50px;
-    padding: 5px;
-    color: #fff;
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #faa;
+  height: 70px;
+  width: 400px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 20px;
   }
 
-.TESTNAV {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex inline-block;
-  -webkit-flex-flow: wrap column;
-  flex-flow: wrap column;
+.nameBanner {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  opacity: 0.5;
 }
 
 .h3Footer {

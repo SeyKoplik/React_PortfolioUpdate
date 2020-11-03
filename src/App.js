@@ -26,8 +26,3 @@ function App() {
 
 export default App;
 
-
-// MUST RUN IN TERMINAL FIRST   `npm i react-router-dom`
-// using the Route to Link on NavTabs
-// atleast the homepage should be exact path
-// route to contact isnt exact path because there is also the learn subcategory
