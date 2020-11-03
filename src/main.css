@@ -91,7 +91,6 @@ a:hover {
 
 .card {
   text-align: center;
-  width: 15rem;
   margin: 5px;
   display: inline-flex;
   justify-content: space-between;
@@ -109,4 +108,8 @@ a:hover {
 
 .contactBtn:hover {
   background-color: #faa;
+}
+
+.card-img-top {
+  width: "200px";
 }
