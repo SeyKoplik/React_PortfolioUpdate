@@ -88,3 +88,25 @@ a:hover {
   font-size: 15px;
   color: gray;
 }
+
+.card {
+  text-align: center;
+  width: 15rem;
+  margin: 5px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.portfolioBtn {
+  border: 1px solid #faa;
+  color: gray;
+}
+
+.portfolioBtn:hover {
+  color: white;
+  background-color: #faa;
+}
+
+.contactBtn:hover {
+  background-color: #faa;
+}

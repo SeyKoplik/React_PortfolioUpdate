@@ -1,16 +1,29 @@
 import React from "react";
+import portfolio from "../../portfolio.json";
+import PortfolioCard from "../PortfolioCard";
 
-function Portfolio() {
+class Portfolio extends React.Component {
+  state = {
+    portfolio: portfolio
+  }
+  
+  render() {
   return (
-    <div>
-      <h1>Portfolio Projects</h1>
-      <h3>Card of Project</h3>
-      <p>
-      [image of project]
-      </p>
-      <h3>Link to project </h3>
-    </div>
+    <>
+      <h3>Projects <small className="text-muted">&& Activities</small></h3>
+      <hr />
+
+      {this.state.portfolio.map(oneData => 
+        <PortfolioCard 
+        title={oneData.title}
+        repo_url={oneData.repo_url}
+        demo_img={oneData.demo_img}
+        deployed_url={oneData.deployed_url}
+        key={oneData.id} />
+        )}
+    </>
   );
+}
 }
 
 export default Portfolio;

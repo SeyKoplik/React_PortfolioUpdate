@@ -6,6 +6,7 @@ function Contact(props) {
       <form>
         <fieldset>
           <h3>Contact <small className="text-muted">Seychelle</small></h3>
+          <hr />
           <p>This section is still under construction please bare with me.</p>
           <div className="form-group">
             <label for="exampleInputEmail1">Name</label>
@@ -20,7 +21,7 @@ function Contact(props) {
                 <label for="exampleTextarea">Message</label>
                 <textarea className="form-control" id="exampleTextarea" rows="3"></textarea>
               </div>
-              <button type="submit" className="btn btn-outline-secondary">Submit</button>
+              <button type="submit" className="btn btn-outline-secondary contactBtn">Submit</button>
             </fieldset>
          </form>
     </>
