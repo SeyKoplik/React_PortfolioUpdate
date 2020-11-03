@@ -6,7 +6,10 @@ import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import FooterLinks from "./components/FooterLinks";
 
+
+
 function App() {
+ 
   return (
     <Router>
       <div>

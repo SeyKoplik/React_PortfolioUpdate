@@ -1,4 +1,5 @@
 import React from "react";
+import ProfilePic from "../../images/ProfilePic1.jpg";
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
     <section className="container-sm w-75 p-3 aboutSection">
     <h2>About <small className="text-muted">Seychelle</small></h2>
     <hr />
-    <img className="float-left mr-3 profilepic" src="../images/ProfilePic1.jpg" alt="ProfilePic" />
+    <img className="float-left mr-3 profilepic" src={ProfilePic} alt="ProfilePic" />
     <p>Seychelle Koplik is a web development and coding bootcamp student based in Philadelphia, PA. Born in the Philippines, raised in Chicago, and now living in Philadelphia. Formerly a Chef with highly adaptable creative skills and passionate drive. Seychelle departed the fast-paced and intensely hot kitchens with a decade long experience and varying progressive skills within the culinary industry.</p>
     <p>Striving for career success in the ever demanding field of Information Technology. Eager to learn and absorb new frontier of technology. Yearning to be able to provide elegant, sleek, understandable coding.</p>
     <p>Hopeful that some day she would be able to deliver the kind of service to provide clients with the highest of expectations for whatever web development needs that may arise. Seeking to beautify, inform, and enhance user experience via design and technology.</p>
