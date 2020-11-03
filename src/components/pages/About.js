@@ -4,8 +4,6 @@ import ProfilePic from "../../images/ProfilePic1.jpg";
 function About() {
   return (
     <>
-    <div className="container-fluid aboutBox">
-    <section className="container-sm w-75 p-3 aboutSection">
     <h2>About <small className="text-muted">Seychelle</small></h2>
     <hr />
     <img className="float-left mr-3 profilepic" src={ProfilePic} alt="ProfilePic" />
@@ -20,8 +18,6 @@ function About() {
       <br />
       <a className="aboutResumeLink" href="https://docs.google.com/document/d/1HEE8RCFbfd_eefKuUShtmUTV-Lj304lxXyyhxs2f_QE/preview" target="_blank">CLICK FOR RESUME ✉️</a>
     </h6>
-    </section>
-    </div>
     </>
   );
 }

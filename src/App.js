@@ -9,15 +9,19 @@ import FooterLinks from "./components/FooterLinks";
 
 
 function App() {
- 
+
   return (
     <Router>
       <div>
         <NavTabs />
-        <Route exact path="/" component={About} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <div className="container-fluid aboutBox">
+          <section className="container-sm w-75 p-3 aboutSection">
+            <Route exact path="/" component={About} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route path="/contact" component={Contact} />
+          </section>
+        </div>
         <FooterLinks />
       </div>
     </Router>
