@@ -31,7 +31,7 @@ body {
   text-align: end;
 }
 
-a, .fa {
+a {
   color: white;
 }
 
@@ -48,10 +48,10 @@ a:hover {
 }
 
 .fafooter {
+  color: white;
   padding: 0px 10px;
   word-wrap: normal;
   display: inline-block;
-  color: white;
 }
 
 .profilepic {

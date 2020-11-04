@@ -16,7 +16,7 @@ function About() {
       <br />
       phone: (808)-442-2346
       <br />
-      <a className="aboutResumeLink" href="https://docs.google.com/document/d/1HEE8RCFbfd_eefKuUShtmUTV-Lj304lxXyyhxs2f_QE/preview" target="_blank">CLICK FOR RESUME ✉️</a>
+      <a className="aboutResumeLink" href="https://docs.google.com/document/d/1HEE8RCFbfd_eefKuUShtmUTV-Lj304lxXyyhxs2f_QE/preview" target="_blank">CLICK FOR RESUME <i class="far fa-file-alt"></i></a>
     </h6>
     </>
   );
