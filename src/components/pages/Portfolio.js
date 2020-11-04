@@ -9,10 +9,10 @@ function Portfolio() {
       repo_url={oneData.repo_url}
       demo_img={oneData.demo_img}
       deployed_url={oneData.deployed_url}
-      key={oneData.id} />
+      key={oneData.id} 
+      description={oneData.description}
+      />
       )
-
-      console.log(Projects[0].demo_img);
 
   return (
     <>
