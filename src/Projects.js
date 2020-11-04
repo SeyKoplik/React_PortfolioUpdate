@@ -3,7 +3,7 @@ module.exports = [
         "id": 1,
         "title": "burgerApp",
         "repo_url": "https://github.com/SeyKoplik/MySQL-HomemadeORM_BurgerApp",
-        "demo_img": "../../images/burgerApp.png",
+        "demo_img": "../images/burgerApp.png",
         "deployed_url": "https://burgerappbysey.herokuapp.com/"
     },
     {

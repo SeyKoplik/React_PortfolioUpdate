@@ -12,11 +12,11 @@ function Portfolio() {
       key={oneData.id} />
       )
 
-      console.log(Projects[1].demo_img);
+      console.log(Projects[0].demo_img);
 
   return (
     <>
-      <h3>Projects <small className="text-muted">&& Activities</small></h3>
+      <h3>Projects <small className="text-muted">//  Activities</small></h3>
       <hr />
       {oneProject}
     </>
