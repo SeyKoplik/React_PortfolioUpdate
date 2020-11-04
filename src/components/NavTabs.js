@@ -14,28 +14,32 @@ function NavTabs() {
         </Link>
       </p>
       </div>
-      <ul className="nav links">
+      <ul className="nav nav-links">
       <li className="nav-item">
         <Link
           to="/about"
           className={location.pathname === "/about" ? "nav-link active" : "nav-link"} >
-          About
+          <i class="fas fa-home"></i> About
         </Link>
       </li>
+
       <li className="nav-item">||</li>
+
       <li className="nav-item">
         <Link
           to="/portfolio"
           className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} >
-          Portfolio
+          <i class="far fa-file-image"></i> Portfolio
         </Link>
       </li>
+
       <li className="nav-item">|| </li>
+
       <li className="nav-item">
         <Link
           to="/contact"
           className={location.pathname === "/" ? "nav-link active" : "nav-link"} >
-          Contact
+          <i class="far fa-address-card"></i> Contact
         </Link>
       </li>
     </ul>

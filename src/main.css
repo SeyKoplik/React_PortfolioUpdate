@@ -6,19 +6,19 @@ body {
   overflow: overlay;
   }
 
-.links {
+.nav-links {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #faa;
   height: 70px;
-  width: 400px;
-  padding: 10px;
+  width: 410px;
+  padding: 5px;
   color: #fff;
   text-align: center;
   margin: 0 auto;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 18px;
   }
 
 .nameBanner {
@@ -31,12 +31,12 @@ body {
   text-align: end;
 }
 
-a {
+a, .fa {
   color: white;
 }
 
 a:hover {
-  color: black;
+  color: gray;
 }
 
 .footer {
@@ -51,6 +51,7 @@ a:hover {
   padding: 0px 10px;
   word-wrap: normal;
   display: inline-block;
+  color: white;
 }
 
 .profilepic {
@@ -111,5 +112,5 @@ a:hover {
 }
 
 img.card-img-top {
-  width: "50px";
+  width: 200px;
 }

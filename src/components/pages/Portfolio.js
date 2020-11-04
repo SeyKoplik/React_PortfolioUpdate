@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "../../Projects.js";
+import Projects from "../../Projects";
 import PortfolioCard from "../PortfolioCard";
 
 function Portfolio() {
