@@ -1,58 +1,72 @@
 [
     {
         "id": 1,
-        "title": "burgerApp",
-        "repo_url": "https://github.com/SeyKoplik/MySQL-HomemadeORM_BurgerApp",
-        "demo_img": "./images/burgerApp.png",
-        "deployed_url": "https://burgerappbysey.herokuapp.com/"
+        "title": "Project 2 - PetFinder",
+        "repo_url": "https://github.com/SeyKoplik/Project2_PetFinder",
+        "demo_img": "https://i.ibb.co/0hR7M1K/petfind-app.png",
+        "deployed_url": "https://petfind-app.herokuapp.com/"
     },
     {
         "id": 2,
-        "title": "burgerApp",
-        "repo_url": "https://github.com/SeyKoplik/MySQL-HomemadeORM_BurgerApp",
-        "demo_img": "./images/burgerApp.png",
-        "deployed_url": "https://burgerappbysey.herokuapp.com/"
+        "title": "Project 1 - Covid Traveller",
+        "repo_url": "https://github.com/SeyKoplik/Project1_CovidTravellerGFSPage",
+        "demo_img": "https://i.ibb.co/KbfTJyn/GFSss.png",
+        "deployed_url": "https://seykoplik.github.io/Project1_CovidTravellerGFSPage/"
     },
     {
         "id": 3,
-        "title": "burgerApp",
-        "repo_url": "https://github.com/SeyKoplik/MySQL-HomemadeORM_BurgerApp",
-        "demo_img": "./images/burgerApp.png",
-        "deployed_url": "https://burgerappbysey.herokuapp.com/"
+        "title": "Employee Directory",
+        "repo_url": "https://github.com/SeyKoplik/ReactJS_EmployeeDirectory",
+        "demo_img": "https://i.ibb.co/nfBVQn8/Pagess.png",
+        "deployed_url": "https://seykoplik.github.io/ReactJS_EmployeeDirectory/"
     },
     {
         "id": 4,
-        "title": "burgerApp",
-        "repo_url": "https://github.com/SeyKoplik/MySQL-HomemadeORM_BurgerApp",
-        "demo_img": "./images/burgerApp.png",
+        "title": "Employee Tracker",
+        "repo_url": "https://github.com/SeyKoplik/MySQL_EmployeeMgmtSys",
+        "demo_img": "https://i.ibb.co/vmsCzd8/Emptracker.png",
         "deployed_url": "https://burgerappbysey.herokuapp.com/"
     },
     {
         "id": 5,
-        "title": "burgerApp",
-        "repo_url": "https://github.com/SeyKoplik/MySQL-HomemadeORM_BurgerApp",
-        "demo_img": "./images/burgerApp.png",
-        "deployed_url": "https://burgerappbysey.herokuapp.com/"
+        "title": "Note Taker",
+        "repo_url": "https://github.com/SeyKoplik/Express_NoteTaker",
+        "demo_img": "https://i.ibb.co/2FNYtxc/Note-look1.png",
+        "deployed_url": "https://notetakerbysey.herokuapp.com/"
     },
     {
         "id": 6,
-        "title": "burgerApp",
-        "repo_url": "https://github.com/SeyKoplik/MySQL-HomemadeORM_BurgerApp",
-        "demo_img": "./images/burgerApp.png",
-        "deployed_url": "https://burgerappbysey.herokuapp.com/"
+        "title": "Workout Tracker",
+        "repo_url": "https://github.com/SeyKoplik/NoSQL_WorkoutTracker",
+        "demo_img": "https://i.ibb.co/NtBzJX5/Trackerss.png",
+        "deployed_url": "https://fitness-tracker-app-by-sey.herokuapp.com/"
     },
     {
         "id": 7,
-        "title": "burgerApp",
+        "title": "Burger Eating App",
         "repo_url": "https://github.com/SeyKoplik/MySQL-HomemadeORM_BurgerApp",
-        "demo_img": "./images/burgerApp.png",
+        "demo_img": "https://i.ibb.co/kQ0rKVL/Burger-App.png",
         "deployed_url": "https://burgerappbysey.herokuapp.com/"
     },
     {
         "id": 8,
-        "title": "burgerApp",
-        "repo_url": "https://github.com/SeyKoplik/MySQL-HomemadeORM_BurgerApp",
-        "demo_img": "./images/burgerApp.png",
-        "deployed_url": "https://burgerappbysey.herokuapp.com/"
+        "title": "Weather Dashboard",
+        "repo_url": "https://github.com/SeyKoplik/WebAPI_WeatherDashboard",
+        "demo_img": "https://i.ibb.co/QPyBqHN/Weatherprev.png",
+        "deployed_url": "https://seykoplik.github.io/WeatherDashboard/"
+    },
+    {
+        "id": 9,
+        "title": "Budget Tracker",
+        "repo_url": "https://github.com/SeyKoplik/ProgressiveWebApp_BudgetTracker",
+        "demo_img": "https://i.ibb.co/FWJ42XV/Budgettracker.png",
+        "deployed_url": "https://pwa-budget-tracker-bysey.herokuapp.com/"
+    },
+    {
+        "id": 10,
+        "title": "Employee Profile Generator",
+        "repo_url": "https://github.com/SeyKoplik/TemplateEngine",
+        "demo_img": "https://i.ibb.co/5MQnqX3/Screen-Shot-2020-09-28-at-4-06-26-PM.png",
+        "deployed_url": "https://github.com/SeyKoplik/TemplateEngine"
     }
 ]

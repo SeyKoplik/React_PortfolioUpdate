@@ -14,7 +14,7 @@ function NavTabs() {
         </Link>
       </p>
       </div>
-      <ul className="nav nav-links">
+      <ul className="nav nav-links mx-auto">
       <li className="nav-item">
         <Link
           to="/about"

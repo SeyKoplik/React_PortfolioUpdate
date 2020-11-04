@@ -18,7 +18,9 @@ function Portfolio() {
     <>
       <h3>Projects <small className="text-muted">//  Activities</small></h3>
       <hr />
+   
       {oneProject}
+   
     </>
   )
 }

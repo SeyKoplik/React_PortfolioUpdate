@@ -1,11 +1,12 @@
 import React from "react";
-import pic from "../images/burgerApp.png"
+
 
 function PortfolioCard(props) {
+    
     return (
         <>
-            <div className="card">
-                <img className="card-img-top" src={pic} alt={props.demo_img} />
+            <div className="card portfolio-card">
+                <img className="card-img-top" src={props.demo_img} alt={props.demo_img} />
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
 
