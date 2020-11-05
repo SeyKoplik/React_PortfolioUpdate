@@ -41,7 +41,6 @@ function Contact() {
         <fieldset>
           <h3>Contact <small className="text-muted">Seychelle</small></h3>
           <hr />
-          <p>This section is still under construction please bare with me.</p>
           <div className="form-group">
             <label>Name</label>
             <input type="text" className="form-control" id="name" name="name" aria-describedby="emailHelp" placeholder="Enter your name" onChange={handleInputChange} />
